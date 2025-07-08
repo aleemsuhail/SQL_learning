@@ -11,4 +11,4 @@ insert into student values(3,'C','Phy','90');
 insert into student values(4,'D','Phy','75');
 insert into student values(4,'D','Che','90');
 
-Select NAME from Student where marks < 90;
+Select NAME from Student where marks < 90 and subject = 'Che';
